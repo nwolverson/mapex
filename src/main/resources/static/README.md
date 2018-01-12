@@ -1,0 +1,1 @@
+The static content in this directory is populated from frontend build process and copied over.

@@ -1,0 +1,14 @@
+strava:
+  client_id: 2746
+  client_secret: ${CLIENT_SECRET}
+security:
+  oauth2:
+    client:
+      clientId: ${strava.client_id}
+      clientSecret: ${strava.client_secret}
+      accessTokenUri: https://www.strava.com/oauth/token
+      userAuthorizationUri: https://www.strava.com/oauth/authorize
+      authenticationScheme: query
+      client-authentication-scheme: query
+    resource:
+      user-info-uri: https://www.strava.com/api/v3/athlete

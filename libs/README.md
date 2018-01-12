@@ -1,0 +1,1 @@
+Snapshot version of javastrava-api included as there are unreleased changes required per https://github.com/danshannon/javastravav3api/issues/180
